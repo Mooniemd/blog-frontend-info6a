@@ -1,0 +1,23 @@
+body{
+font-family: monospace;
+background-color: #89e219;
+color: white;
+}
+
+html, .fullscreen{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container{
+margin: auto;
+background-color: #58cc02;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+}
