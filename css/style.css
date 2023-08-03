@@ -1,6 +1,6 @@
 body{
-font-family: monospace;
-background-color: #89e219;
+font-family: 'Nunito', sans-serif;
+background-color: #ffff;
 color: white;
 }
 
@@ -14,10 +14,15 @@ html, .fullscreen{
 
 .container{
 margin: auto;
-background-color: #58cc02;
+background-color: #89e219;
+border-bottom: 10px solid;
+border-color: #58cc02;
+border-radius: 20px;
+min-width: 50px;
+min-height: 50px;
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 1,5rem;
     text-align: center;
 }
