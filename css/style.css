@@ -3,6 +3,7 @@
   padding: 0; 
   box-sizing: border-box; 
   font-family: 'Nunito', sans-serif;
+  color: #333;
  } 
 
  html{
@@ -46,6 +47,17 @@ text-align: center;
 #section li{
   display: inline;
   position: relative;
+}
+
+.btnlink{
+  background-color: #89e219;
+  border: none;
+  border-bottom: 7px solid;
+  border-color: #58cc02;
+  border-radius: 20px;
+  min-width: 200px;
+  min-height: 50px;
+  cursor: pointer;
 }
 
 ul li a { 
