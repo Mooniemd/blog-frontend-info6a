@@ -12,7 +12,7 @@
 body { 
   background-color: #2acc6c;
   overflow-y: hidden; 
-  overflow-x: hidden; 
+  overflow-x: hidden;
 } 
 
 ul { 
@@ -32,6 +32,10 @@ ul li {
 }
 
 #section2{
+  min-height: 100vh;
+}
+
+#section3{
   min-height: 100vh;
 }
 
@@ -60,7 +64,8 @@ ul:hover li a {
 
 ul li:hover a { 
   color: #000; 
-  background: rgba(255,255,255,1); 
+  background: rgba(255,255,255,1);
+  border-radius: 30px;
 } 
 
 ul li a:before { 
